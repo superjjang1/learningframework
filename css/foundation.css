@@ -373,11 +373,16 @@ dl {
   line-height: 1.6; }
 
 li {
-  font-size: inherit; }
+  font-size: inherit;
+ }
 
 ul {
-  margin-left: 1.25rem;
-  list-style-type: none; }
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  list-style-type: none;
+ }
+
 
 ol {
   margin-left: 1.25rem; }
